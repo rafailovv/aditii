@@ -16,6 +16,8 @@ $current_products = get_products($db, 6);
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="icon" href="img/logo.png">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -25,10 +27,14 @@ $current_products = get_products($db, 6);
 <body>
 	<?php include_once('header.php'); ?>
 	<div class="preview">
-		<!-- Make slider-->
-	</div>
-	<div class="slider">
-		<!-- Make slider-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/image1.jpg" alt="photo: preview"></div>
+				<div class="swiper-slide"><img src="img/image2.jpg" alt="photo: preview"></div>
+				<div class="swiper-slide"><img src="img/image3.jpg" alt="photo: preview"></div>
+				<div class="swiper-slide"><img src="img/image4.jpg" alt="photo: preview"></div>
+			</div>	
+		</div>
 	</div>
 	<h2 class="products-title">FEATURED PRODUCTS</h2>
 	<div class="products">
@@ -47,7 +53,13 @@ $current_products = get_products($db, 6);
 		<?php endforeach; ?>
 
 	</div>
+	
 	<?php include_once('footer.php'); ?>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+
 </body>
 
 </html>

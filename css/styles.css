@@ -75,18 +75,29 @@ body {
 
 .preview {
 	width: 100%;
-	height: 600px;
+	height: 800px;
 	background-color: #39c4b1;
 }
 
-.slider {
-	width: 100%;
-	height: 200px;
+.swiper-container {
+	height: 100%;
+}
+
+.swiper-slide {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide > img {
+	width: 70%;
+	height: 700px;
 }
 
 .products-title {
-	color: #fff;
-	background-color: #39c4b1;
+	margin: 0%;
+	color: #a4a4a4;
 	padding: 2% 10%;
 }
 
