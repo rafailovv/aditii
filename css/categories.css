@@ -1,0 +1,170 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-link {
+	display: block;
+	width: 10%;
+	height: 20%;
+	margin-left: 10%;
+}
+
+.header-link-logo {
+	display: block;
+	width: 35%;
+	height: auto;
+	margin-left: 10%;
+}
+
+.header-cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 10%;
+	text-decoration: none;
+}
+
+.header-cart-icon {
+	display: block;
+	width: 25%;
+	height: 25%;
+}
+
+.header-cart-price {
+	color: #a1a1a1;
+	display: block;
+	font-size: 2em;
+}
+
+.nav {
+	width: 100%;
+	height: auto;
+	background-color: #4ccfc1;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-menu {
+	width: 75%;
+	color: #fff;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style-type: none;
+}
+
+.nav-menu-item-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.products-title {
+	color: #afafaf;
+	text-align: center;
+}
+
+.products {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.products-item {
+	margin: 0 2%;
+	margin-bottom: 2%;
+	padding: 5px;
+	border: 1px solid #e4e4e4;
+	border-bottom: 5px solid #3cc395;
+}
+
+.products-item-image {
+	width: 400px;
+	height: 300px;
+}
+
+.products-item-cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.products-item-cart-button {
+	width: 100px;
+	height: 50px;
+	background-color: #3cc395;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.products-item-title,
+.products-item-cart-price {
+	margin: 10px;
+	color: #afafaf;
+	font-size: 2em;
+	text-align: center;
+}
+
+.footer-wrap {
+	width: 100%;
+	height: auto;
+	background-color: #3cc3b5;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer-menu {
+	margin: 0 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.footer-menu-title {
+	margin: 0;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 1.75em;
+}
+
+.footer-menu-persons {
+	margin: 2% 0;
+	padding-left: 5%;
+	list-style-type: none;
+}
+
+.footer-menu-persons > li {
+	padding: 5px;
+	color: #fff;
+}
+
+.copyright {
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+	background-color: #2da89b;
+	text-align: center;
+}
